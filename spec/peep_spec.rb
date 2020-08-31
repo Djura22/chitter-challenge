@@ -15,5 +15,14 @@ describe Peep do
       expect(peeps).to include("What a great site!")
     end
   end
+
+  describe '.create' do
+  	it 'creates a new peep' do
+  		Peep.create(peep: 'Hello world!')
+
+  		expect(Peep.all).to include 'Hello world!'
+  	end
+  end
+
 end
 
