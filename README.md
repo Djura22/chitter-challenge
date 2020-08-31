@@ -3,10 +3,12 @@ Chitter
 
 ### Tech Stack
 
-Ruby 2.7.0
-Rspec
-Sinatra
-PostgreSQL
+* Ruby 2.7.0
+* Rspec
+* Sinatra
+* PostgreSQL
+
+### User Stories
 
 ```
 As a Maker
@@ -33,16 +35,16 @@ I want to sign up for Chitter
 
 #### Project
 
-$ git clone https://github.com/Djura22/chitter-challenge
-$ bundle
+* $ git clone https://github.com/Djura22/chitter-challenge
+* $ bundle
 
 #### Database
 
-$ psql
-CREATE DATABASE chitter;
-CREATE DATABASE chitter_test;
+* $ psql
+* CREATE DATABASE chitter;
+* CREATE DATABASE chitter_test;
 
 #### Run App
 
-$ rackup
-In web browser - 'localhost:9292'
+* $ rackup
+* In web browser - 'localhost:9292'
