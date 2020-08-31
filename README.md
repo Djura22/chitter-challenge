@@ -43,6 +43,9 @@ I want to sign up for Chitter
 * $ psql
 * CREATE DATABASE chitter;
 * CREATE DATABASE chitter_test;
+```
+* Further instructions on setting up the 'Peeps' log table are in db/migrations
+```
 
 #### Run App
 
